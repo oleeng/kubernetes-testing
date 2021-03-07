@@ -19,7 +19,7 @@ spec:
       - name: express
         image: docker.io/oleeng/hello-express
         ports:
-        - containerPort: 80
+        - containerPort: 8080
           protocol: TCP
         env:
         - name: PORT
