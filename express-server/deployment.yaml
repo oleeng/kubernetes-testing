@@ -18,6 +18,7 @@ spec:
       containers:
       - name: express
         image: docker.io/oleeng/hello-express
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
           protocol: TCP
