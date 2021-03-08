@@ -14,7 +14,7 @@ spec:
     metadata:
       labels:
         app: express
-        lastChangedDate: Mon Mar  8 14:21:01 UTC 2021
+        lastChangedDate: "2021-03-08___14-58"
     spec:  
       containers:
       - name: express
